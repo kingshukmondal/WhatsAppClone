@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".TermsAndConditions">
+
+    <ImageView
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:src="@drawable/termsimages"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="Welcome to WhatsApp"
+        android:textSize="@dimen/_17sdp"
+        android:textStyle="bold"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/_14sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Read our "
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Privacy Policy, "
+            android:textColor="#2196F3"
+            android:textSize="@dimen/_8sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/terms"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8sdp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Terms and Condition."
+            android:textColor="#2196F3"
+            android:textSize="@dimen/_8sdp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/terms"
+        android:layout_width="@dimen/_230sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="#60AA63"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Agree &amp; Continue"
+            android:textColor="#fff"
+
+            android:textSize="@dimen/_14sdp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

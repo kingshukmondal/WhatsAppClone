@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:onClick="resend"
+            android:text="Verify phone number"
+            android:textColor="#337336"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Waiting to automatically detect message sent to mobile number "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_7sdp"></TextView>
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_7sdp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" Wrong number?"
+                android:textColor="#03A9F4"
+                android:textSize="@dimen/_7sdp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/otpenter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/extraround"
+                android:gravity="center"
+                android:hint="Enter OTP here"
+                android:padding="@dimen/_20sdp"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Enter 6-digit code."></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Resend OTP."
+            android:textColor="#FF0000"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/next"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="#4CAF50">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

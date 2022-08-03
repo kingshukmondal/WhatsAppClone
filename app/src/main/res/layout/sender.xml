@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="8dp"
+    android:gravity="right">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="right"
+            android:background="@drawable/arrow_bg2"
+            android:backgroundTint="#DCF8C6"></ImageView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#DCF8C6"
+            android:minWidth="@dimen/_80sdp"
+            android:minHeight="@dimen/_35sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:maxWidth="260dp"
+                android:minWidth="@dimen/_90sdp"
+                android:paddingLeft="@dimen/_7sdp"
+                android:text="Message"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|bottom"
+                android:layout_marginRight="@dimen/_3sdp"
+                android:orientation="horizontal"
+                android:padding="@dimen/_2sdp">
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right|bottom"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:text="00:00"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_10sdp"></TextView>
+
+                <ImageView
+                    android:id="@+id/seenstatus"
+                    android:layout_width="@dimen/_13sdp"
+                    android:layout_height="@dimen/_12sdp"
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/grerytick1"></ImageView>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

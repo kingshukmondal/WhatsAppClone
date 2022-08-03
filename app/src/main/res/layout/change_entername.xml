@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/_50sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="#00BCD4"
+        android:gravity="center"
+        android:text="Enter the new name"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16sdp"
+        android:textStyle="bold"></TextView>
+
+    <AutoCompleteTextView
+        android:id="@+id/newname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:hint="New name"
+        android:textColor="#000"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"></AutoCompleteTextView>
+
+
+    <LinearLayout
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/rounded_corner1"
+        android:backgroundTint="#FFC107">
+
+        <TextView
+            android:id="@+id/submitnewname"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

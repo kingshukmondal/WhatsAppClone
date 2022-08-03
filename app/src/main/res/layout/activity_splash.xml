@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".SplashPage">
+
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_100sdp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_100sdp"
+
+        android:src="@drawable/whstappicon"></ImageView>
+
+
+    <ImageView
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/metalogo4"
+        android:backgroundTint="#34A538"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="@dimen/_60sdp"
+        android:gravity="center"
+        android:text="from"
+        android:textSize="@dimen/_12sdp"
+        android:textStyle="normal"></TextView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

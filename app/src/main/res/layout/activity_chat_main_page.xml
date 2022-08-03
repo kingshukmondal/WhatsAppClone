@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgreoundimage"
+    android:orientation="vertical"
+    tools:context=".ChattingPage">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whatsapp1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profilepic"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_weight="1"
+                android:src="@drawable/whatsappprofilephoto" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_weight="4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chatname"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/chrustyrock"
+                    android:gravity="center_vertical"
+                    android:text="name"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_15sdp" />
+
+                <TextView
+                    android:id="@+id/lastseen"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/chrustyrock"
+                    android:gravity="bottom"
+                    android:text="Online"
+                    android:textColor="#00FF0A"
+                    android:textSize="@dimen/_8sdp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingVertical="@dimen/_5sdp"
+                android:src="@drawable/ic_baseline_call_24"
+                app:tint="@color/white"></ImageView>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:paddingVertical="@dimen/_5sdp"
+                android:src="@drawable/ic_baseline_videocam_24"
+                app:tint="@color/white"></ImageView>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingVertical="@dimen/_5sdp"
+                android:src="@drawable/ic_baseline_more_vert_24"
+                app:tint="@color/white"></ImageView>
+        </LinearLayout>
+        >
+
+
+    </Toolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/displaychats"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+        android:windowSoftInputMode="adjustPan"></androidx.recyclerview.widget.RecyclerView>
+
+
+    <include
+        android:id="@+id/include_sendmsg"
+        layout="@layout/type_message_area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_7sdp"
+        android:layout_weight="1"
+        android:gravity="bottom" />
+</LinearLayout>
+

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PhoneNumberRegistration">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Enter your Phone Number"
+            android:textColor="#337336"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="WhatsApp will need to verify your phone number. "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_9sdp"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="What's your number?"
+                android:textColor="#03A9F4"
+                android:textSize="@dimen/_9sdp"
+                android:textStyle="bold"></TextView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_30sdp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/tv_country"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/_16sdp"
+                    android:gravity="center"
+                    android:text="India"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="normal"></TextView>
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="match_parent"
+                    android:layout_toRightOf="@id/tv_country"
+                    android:gravity="center"></Spinner>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/spinner"
+                android:layout_gravity="bottom"
+                android:layout_marginHorizontal="@dimen/_60sdp"
+                android:background="#4CAF50"></LinearLayout>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/_190sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_18sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="+  "
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_13sdp"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null"
+                        android:text="91"
+                        android:textSize="@dimen/_13sdp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/spinner"
+                    android:layout_gravity="bottom"
+                    android:background="#4CAF50"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/phonenumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_18sdp"
+                    android:background="@null"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:maxLength="12"
+                    android:textColor="@color/black"
+                    android:textColorHint="#39000000"
+                    android:textSize="@dimen/_13sdp"></EditText>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_1sdp"
+                    android:layout_below="@+id/spinner"
+                    android:layout_gravity="bottom"
+                    android:background="#4CAF50"></LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:text="Career charges may apply"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/next"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="#4CAF50">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13sdp"
+            android:textStyle="bold"></TextView>
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

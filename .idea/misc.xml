@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/drawable/extraround.xml" value="0.137" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/drawable/ic_baseline_videocam_24.xml" value="0.141" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/drawable/roundcorners3.xml" value="0.141" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/drawable/rounded_corner.xml" value="0.2085" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/drawable/rounded_corner1.xml" value="0.2085" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/drawable/type_message_area.xml" value="0.2085" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_chat_main_page.xml" value="0.25263157894736843" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_chatpage.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_main.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_mainpage.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_otp_page.xml" value="0.2" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_registration.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_search_page.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_splash.xml" value="0.25" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/activity_terms.xml" value="0.264" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/change_entername.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/chatsrow.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/confirmation_box1.xml" value="0.2708333333333333" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/content_chatpage.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/custom_image.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/data_placeholder_layout.xml" value="0.31" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/fragment_call.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/fragment_chats.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/fragment_first.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/fragment_second.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/fragment_status.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/networkpermission.xml" value="0.2734375" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/receiver.xml" value="0.2734375" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/sender.xml" value="0.6" />
+        <entry key="..\:/Users/KINGSHUK MONDAL/AndroidStudioProjects/WhatsAppClone/app/src/main/res/layout/type_message_area.xml" value="0.2734375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

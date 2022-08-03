@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".HomeScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#128C7E"
+            android:orientation="vertical"
+            android:paddingHorizontal="@dimen/_10sdp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="9"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:text="WhatsApp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/searchicon"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_marginHorizontal="@dimen/_10sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_baseline_search_24"
+                    android:backgroundTint="@color/white"></ImageView>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_weight="1"
+                    android:background="@drawable/ic_baseline_more_vert_24"
+                    android:backgroundTint="@color/white"></ImageView>
+
+
+            </LinearLayout>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/whatsapp1"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="@color/white"
+                app:tabMaxWidth="0dp"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/white"
+                app:tabTextColor="@color/white"></com.google.android.material.tabs.TabLayout>
+
+
+        </LinearLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+
+            android:layout_height="0dp"
+            android:layout_weight="13"></androidx.viewpager.widget.ViewPager>
+
+        <include
+            android:id="@+id/netinclude"
+            layout="@layout/networkpermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/searchview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:background="@color/white"
+        android:backgroundTint="@color/whatsapp1"
+        android:orientation="horizontal"
+        android:paddingHorizontal="@dimen/_10sdp"
+        android:paddingTop="@dimen/_15sdp">
+
+        <ImageView
+            android:id="@+id/backtop"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24"
+            app:tint="@color/white" />
+
+        <EditText
+            android:id="@+id/searchforname"
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:background="@null"
+            android:hint="Search..."
+            android:maxLines="1"
+            android:paddingLeft="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
